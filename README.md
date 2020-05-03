@@ -6,11 +6,13 @@
 1.先安装依赖，centos：
 ```
 sudo yum install -y bind-utils
+sudo yum install -y wget
 ```
 
 debian/ubuntu:
 ```
-sudo apt-get install -y dnsutils
+sudo apt-get install -y dnsutils 
+sudo apt-get install -y wget
 ```
 
 2.安装程序并运行
